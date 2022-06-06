@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Snell Roundhand";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+}
+
+.lm-borders {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.r-borders {
+    border-bottom: 1px solid black;
+}
+
+.outer-flex {
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: stretch;
+    width: 40%;
+    height: 400px;
+    margin: 0 30%;
+}
+
+.row {
+    display: flex;
+    /* width: 100%; */
+    flex: 1;
+    align-items: stretch;
+}
+
+.in-out {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    padding-right: 4px;
+    background-color: black;
+    flex: 1;
+}
+
+.clear-button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.back-button {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.operator-button {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.num-button {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.zero-button {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.row div.css-action:hover {    
+    background-color: rgb(228, 228, 228);
+}
+
+.row div.css-action:active {    
+    background-color: rgb(155, 155, 155);
+}
